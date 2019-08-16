@@ -1,25 +1,39 @@
-@import 'assets/colors';
+@import 'assets/_colors.scss';
+@import 'assets/_mixins.scss';
 
 .nav {
   height: 75px;
+  margin-top: 40px;
+  @include breakpoint(tablet) {
+    display: none;
+  }
 }
 
 li {
   display: inline-block;
-  margin-top: 20px;
 }
 
-a {
+.nav__link {
   color: $cl-black;
-  padding: 30px;
+  padding: 40px;
 }
 
 .nav__items {
-  width: 65%;
-  display: inline-block;
+  width: 70%;
+  display: inline;
+  margin-left: 20px;
 }
 
 .nav__icons {
-  width: 25%;
-  display: inline-block;
+  display: inline;
+  float: right;
+  margin-right: 30px;
+  @include breakpoint(tablet2) {
+    margin-right: 0;
+  }
+}
+
+.social-icon {
+  color: $cl-black;
+  padding: 20px;
 }
