@@ -1,0 +1,15 @@
+@import '_nav.scss';
+@import 'assets/colors';
+
+body {
+  font-size: 21px;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}

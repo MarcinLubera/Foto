@@ -1,0 +1,25 @@
+@import 'assets/colors';
+
+.nav {
+  height: 75px;
+}
+
+li {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+a {
+  color: $cl-black;
+  padding: 30px;
+}
+
+.nav__items {
+  width: 65%;
+  display: inline-block;
+}
+
+.nav__icons {
+  width: 35%;
+  display: inline-block;
+}
