@@ -4,7 +4,7 @@
 .nav {
   height: 75px;
   margin-top: 40px;
-  @include breakpoint(tablet) {
+  @include breakpoint(phone_big2) {
     display: none;
   }
 }
@@ -16,6 +16,9 @@ li {
 .nav__link {
   color: $cl-black;
   padding: 40px;
+  @include breakpoint(phone_big2) {
+    padding: 10px;
+  }
 }
 
 .nav__items {
@@ -28,7 +31,7 @@ li {
   display: inline;
   float: right;
   margin-right: 30px;
-  @include breakpoint(tablet2) {
+  @include breakpoint(phone_big2) {
     margin-right: 0;
   }
 }

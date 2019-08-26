@@ -2,10 +2,11 @@
 @import 'assets/colors';
 @import 'assets/mixins';
 @import '_reset.scss';
+@import '_main.scss';
 
 body {
   font-size: 21px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 li {
