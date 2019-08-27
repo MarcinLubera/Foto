@@ -39,4 +39,8 @@ li {
 .social-icon {
   color: $cl-black;
   padding: 20px;
+
+  @include breakpoint(phone_big) {
+    padding: 5px;
+  }
 }
